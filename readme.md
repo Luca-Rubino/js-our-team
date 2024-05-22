@@ -23,3 +23,10 @@ Traccia:
 > BONUS 2:
 
 - Organizzare i singoli membri in card/schede
+
+> Svolgimento:
+- Creo gli oggetti con i dati richiesti
+- Stampo in console per ogni oggetto le informazioni
+- Stampo le stesse informazioni sul DOM sottoforma di stringhe
+- Convertire la stringa delle foto in un tag img con l'attributo src che fara riverimento all'immagine opportuna nella cartella img
+- lavorare sul file css per la personalizzazione delle foto
