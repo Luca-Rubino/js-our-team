@@ -55,3 +55,30 @@ const object6 = {
     ruolo:'Graphic Designer',
     foto:'img/barbara-ramos-graphic-designer.jpg',
 }
+
+
+// stampo in console per ogni oggetto le informazioni
+console.log('Object1')
+for (const key in object1) {
+    console.log(object1[key])
+}
+console.log('Object2')
+for (const key in object2) {
+    console.log(object2[key])
+}
+console.log('Object3')
+for (const key in object3) {
+    console.log(object3[key])
+}
+console.log('Object4')
+for (const key in object4) {
+    console.log(object4[key])
+}
+console.log('Object5')
+for (const key in object5) {
+    console.log(object5[key])
+}
+console.log('Object6')
+for (const key in object6) {
+    console.log(object6[key])
+}
