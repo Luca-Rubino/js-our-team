@@ -82,3 +82,86 @@ console.log('Object6')
 for (const key in object6) {
     console.log(object6[key])
 }
+
+// stampo le informazioni degli oggetti nel dom
+
+const bodySelector = document.querySelector('body')
+const sectionObject = document.createElement('section')
+bodySelector.appendChild(sectionObject)
+// Object1
+const articoleObject1 = document.createElement('article')
+sectionObject.appendChild(articoleObject1)
+const h2Object1 = document.createElement('h2')
+const pRuolo1 = document.createElement('p')
+const pfoto1 = document.createElement('p')
+articoleObject1.appendChild(pfoto1)
+articoleObject1.appendChild(h2Object1)
+articoleObject1.append(pRuolo1)
+h2Object1.textContent = object1.nome
+pRuolo1.textContent = object1.ruolo
+pfoto1.textContent = object1.foto
+
+// Object2
+const articoleObject2 = document.createElement('article')
+sectionObject.appendChild(articoleObject2)
+const h2Object2 = document.createElement('h2')
+const pRuolo2 = document.createElement('p')
+const pfoto2 = document.createElement('p')
+articoleObject2.appendChild(pfoto2)
+articoleObject2.appendChild(h2Object2)
+articoleObject2.append(pRuolo2)
+h2Object2.textContent = object2.nome
+pRuolo2.textContent = object2.ruolo
+pfoto2.textContent = object2.foto
+
+// Object3
+const articoleObject3 = document.createElement('article')
+sectionObject.appendChild(articoleObject3)
+const h2Object3 = document.createElement('h2')
+const pRuolo3 = document.createElement('p')
+const pfoto3 = document.createElement('p')
+articoleObject3.appendChild(pfoto3)
+articoleObject3.appendChild(h2Object3)
+articoleObject3.append(pRuolo3)
+h2Object3.textContent = object3.nome
+pRuolo3.textContent = object3.ruolo
+pfoto3.textContent = object3.foto
+
+// Object4
+const articoleObject4 = document.createElement('article')
+sectionObject.appendChild(articoleObject4)
+const h2Object4 = document.createElement('h2')
+const pRuolo4 = document.createElement('p')
+const pfoto4 = document.createElement('p')
+articoleObject4.appendChild(pfoto4)
+articoleObject4.appendChild(h2Object4)
+articoleObject4.append(pRuolo4)
+h2Object4.textContent = object4.nome
+pRuolo4.textContent = object4.ruolo
+pfoto4.textContent = object4.foto
+
+// Object5
+const articoleObject5 = document.createElement('article')
+sectionObject.appendChild(articoleObject5)
+const h2Object5 = document.createElement('h2')
+const pRuolo5 = document.createElement('p')
+const pfoto5 = document.createElement('p')
+articoleObject5.appendChild(pfoto5)
+articoleObject5.appendChild(h2Object5)
+articoleObject5.append(pRuolo5)
+h2Object5.textContent = object5.nome
+pRuolo5.textContent = object5.ruolo
+pfoto5.textContent = object5.foto
+
+// Object6
+const articoleObject6 = document.createElement('article')
+sectionObject.appendChild(articoleObject6)
+const h2Object6 = document.createElement('h2')
+const pRuolo6 = document.createElement('p')
+const pfoto6 = document.createElement('p')
+articoleObject6.appendChild(pfoto6)
+articoleObject6.appendChild(h2Object6)
+articoleObject6.append(pRuolo6)
+h2Object6.textContent = object6.nome
+pRuolo6.textContent = object6.ruolo
+pfoto6.textContent = object6.foto
